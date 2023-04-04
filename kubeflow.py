@@ -235,7 +235,7 @@ def test(data_path: str):
 
 kfp.compiler.Compiler().compile(
     pipeline_func=test,
-    package_path='testt1.yaml')    
+    package_path='test5.yaml')    
 
 client = kfp.Client()
 test._name_ = 'test'
